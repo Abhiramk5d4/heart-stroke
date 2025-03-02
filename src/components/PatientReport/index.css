@@ -1,0 +1,62 @@
+.container-report {
+  background-color: #2748dc;
+  padding: 20px;
+  border-radius: 8px;
+  text-align: center;
+  color: white;
+  width: 1000px;
+  height: 90vh;
+}
+
+.form-container-report {
+  background-color: #d7ddf8;
+  padding: 20px;
+  border-radius: 8px;
+  color: black;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  height: 80%;
+  justify-content: center;
+  align-items: center;
+}
+.report-ready-element {
+  font-size: 30px;
+}
+
+.doctor-report-heading {
+  font-size: 30px;
+  background-color: rgb(25, 93, 219);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.link-elemen {
+}
+
+.report-buttons {
+  background-color: rgb(97, 97, 208);
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px #323423 solid;
+  color: #ffffff;
+  font-weight: 800;
+}
+
+.report-buttons1 {
+  background-color: rgb(97, 97, 208);
+  color: #ffffff;
+  font-weight: 800;
+  height: 50px;
+  width: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  border: 1px #323423 solid;
+  margin-bottom: 10px;
+}

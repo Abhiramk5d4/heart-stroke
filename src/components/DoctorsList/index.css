@@ -1,0 +1,77 @@
+.body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f8d7da;
+}
+
+.header {
+  background-color: #3044b4;
+  color: white;
+  text-align: center;
+  padding: 16px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.container-main {
+  padding: 20px;
+}
+
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  cursor: pointer;
+}
+
+.selected {
+  background-color: black;
+  color: white;
+}
+
+.unselected {
+  background-color: white;
+  color: black;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+}
+
+.card {
+  background-color: white;
+  padding: 15px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.card {
+  margin-top: 20px;
+  width: 100%;
+  height: 400px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.available {
+  color: green;
+  font-weight: bold;
+}
+
+.doctor-image {
+  width: 200px;
+  height: 250px;
+  object-fit: cover;
+  border-radius: 8px;
+}
